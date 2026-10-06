@@ -1,0 +1,819 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kapan dan Kepada Siapa Doa Dikabulkan? Ini Jawaban Syaikh Abdul Qadir Al-Jilani - KALAM</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: 'Georgia', serif;
+            background-color: #f5f5f0;
+            color: #333;
+            min-height: 100vh;
+            line-height: 1.8;
+        }
+
+        header {
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+            padding: 20px 40px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .logo-kalam {
+            font-size: 1.8rem;
+            font-weight: bold;
+            color: #e94560;
+            letter-spacing: 5px;
+            text-decoration: none;
+            text-shadow: 0 0 10px rgba(233, 69, 96, 0.5);
+            transition: all 0.3s ease;
+            padding: 8px 16px;
+            border-radius: 8px;
+        }
+
+        .logo-kalam:hover {
+            background: rgba(233, 69, 96, 0.15);
+            transform: scale(1.05);
+        }
+
+        .logo-kalam span { color: #fff; }
+
+        nav { display: flex; gap: 15px; }
+
+        nav a {
+            color: #ccc;
+            text-decoration: none;
+            padding: 10px 20px;
+            border-radius: 25px;
+            transition: all 0.3s ease;
+            font-size: 0.95rem;
+        }
+
+        nav a:hover { background: #e94560; color: #fff; }
+
+        .breadcrumb {
+            padding: 15px 40px;
+            background: #eee;
+            font-size: 0.85rem;
+            color: #777;
+        }
+
+        .breadcrumb a { color: #e94560; text-decoration: none; }
+        .breadcrumb a:hover { text-decoration: underline; }
+
+        .article-container {
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+
+        .article-header { margin-bottom: 30px; }
+
+        .article-header h1 {
+            font-size: 2.2rem;
+            color: #1a1a2e;
+            line-height: 1.4;
+            margin-bottom: 15px;
+        }
+
+        .article-meta {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            flex-wrap: wrap;
+            color: #888;
+            font-size: 0.9rem;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .author { display: flex; align-items: center; gap: 8px; }
+
+        .author-avatar {
+            width: 35px;
+            height: 35px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, #e94560, #c23152);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #fff;
+            font-weight: bold;
+            font-size: 0.85rem;
+        }
+
+        .author-name { font-weight: bold; color: #333; }
+        .meta-date { color: #999; }
+
+        .article-image-wrapper {
+            margin: 25px 0;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 8px 30px rgba(0,0,0,0.15);
+            position: relative;
+        }
+
+        .article-image-wrapper img {
+            width: 100%;
+            height: auto;
+            display: block;
+            transition: transform 0.5s ease;
+        }
+
+        .article-image-wrapper:hover img { transform: scale(1.02); }
+
+        .image-caption {
+            background: rgba(0,0,0,0.7);
+            color: #ccc;
+            padding: 10px 15px;
+            font-size: 0.8rem;
+        }
+
+        .share-bar {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            padding: 15px 0;
+            border-bottom: 1px solid #ddd;
+            margin-bottom: 25px;
+            flex-wrap: wrap;
+        }
+
+        .share-bar span { font-size: 0.85rem; color: #888; margin-right: 5px; }
+
+        .share-btn {
+            width: 36px;
+            height: 36px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #fff;
+            text-decoration: none;
+            font-size: 0.85rem;
+            font-weight: bold;
+            transition: all 0.3s ease;
+        }
+
+        .share-btn.fb { background: #3b5998; }
+        .share-btn.tw { background: #1da1f2; }
+        .share-btn.wa { background: #25d366; }
+        .share-btn.tg { background: #0088cc; }
+
+        .share-btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+        }
+
+        .font-size-controls { margin-left: auto; display: flex; gap: 5px; }
+
+        .font-btn {
+            width: 32px;
+            height: 32px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            background: #fff;
+            cursor: pointer;
+            font-weight: bold;
+            font-size: 0.85rem;
+            transition: all 0.2s;
+        }
+
+        .font-btn:hover {
+            background: #e94560;
+            color: #fff;
+            border-color: #e94560;
+        }
+
+        .article-content {
+            font-size: 1.05rem;
+            line-height: 1.9;
+            color: #444;
+        }
+
+        .article-content p {
+            margin-bottom: 20px;
+            text-align: justify;
+        }
+
+        .article-content .lead {
+            font-size: 1.15rem;
+            font-weight: bold;
+            color: #1a1a2e;
+            border-left: 4px solid #e94560;
+            padding-left: 20px;
+            margin-bottom: 25px;
+        }
+
+        .article-content blockquote {
+            background: #f0f0eb;
+            border-left: 4px solid #e94560;
+            padding: 20px 25px;
+            margin: 25px 0;
+            border-radius: 0 8px 8px 0;
+            font-style: italic;
+            color: #555;
+        }
+
+        .article-content h2 {
+            font-size: 1.5rem;
+            color: #1a1a2e;
+            margin: 35px 0 15px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #e94560;
+        }
+
+        .article-content h3 {
+            font-size: 1.2rem;
+            color: #333;
+            margin: 25px 0 10px;
+        }
+
+        .arabic-box {
+            background: linear-gradient(135deg, #f8f6f0 0%, #f0ede5 100%);
+            border: 2px solid #d4af37;
+            border-radius: 12px;
+            padding: 30px 25px;
+            margin: 25px 0;
+            text-align: center;
+            box-shadow: 0 4px 15px rgba(212, 175, 55, 0.2);
+            position: relative;
+        }
+
+        .arabic-box::before {
+            content: '﷽';
+            position: absolute;
+            top: -15px;
+            left: 50%;
+            transform: translateX(-50%);
+            background: #f8f6f0;
+            padding: 0 15px;
+            font-size: 1.5rem;
+            color: #d4af37;
+        }
+
+        .arabic-text {
+            font-family: 'Traditional Arabic', 'Scheherazade', 'Amiri', serif;
+            font-size: 1.8rem;
+            line-height: 2.8;
+            color: #1a1a2e;
+            direction: rtl;
+            margin: 15px 0;
+        }
+
+        .arabic-translation {
+            font-size: 0.95rem;
+            color: #666;
+            font-style: italic;
+            margin-top: 15px;
+            padding-top: 15px;
+            border-top: 1px dashed #d4af37;
+        }
+
+        .arabic-label {
+            display: inline-block;
+            background: #d4af37;
+            color: #fff;
+            padding: 4px 15px;
+            border-radius: 15px;
+            font-size: 0.8rem;
+            font-weight: bold;
+            margin-bottom: 15px;
+            letter-spacing: 1px;
+        }
+
+        .article-nav {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin: 40px 0;
+            padding: 30px;
+            background: linear-gradient(135deg, #1a1a2e, #16213e);
+            border-radius: 15px;
+        }
+
+        .article-nav-btn {
+            width: 70px;
+            height: 70px;
+            border-radius: 50%;
+            border: 2px solid #e94560;
+            background: rgba(233, 69, 96, 0.1);
+            color: #fff;
+            font-size: 1.8rem;
+            font-weight: bold;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .article-nav-btn:hover {
+            background: #e94560;
+            transform: scale(1.15);
+            box-shadow: 0 5px 20px rgba(233, 69, 96, 0.5);
+        }
+
+        .article-nav-btn.active {
+            background: #e94560;
+            box-shadow: 0 0 20px rgba(233, 69, 96, 0.6);
+        }
+
+        .nav-btn-label {
+            text-align: center;
+            color: #aaa;
+            font-size: 0.8rem;
+            margin-top: 8px;
+        }
+
+        .nav-group {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .kalam-back-btn {
+            display: block;
+            text-align: center;
+            margin: 40px auto;
+            padding: 18px 50px;
+            background: linear-gradient(135deg, #e94560, #c23152);
+            color: #fff;
+            text-decoration: none;
+            border-radius: 35px;
+            font-size: 1.2rem;
+            font-weight: bold;
+            letter-spacing: 4px;
+            transition: all 0.4s ease;
+            box-shadow: 0 8px 25px rgba(233, 69, 96, 0.4);
+            max-width: 350px;
+        }
+
+        .kalam-back-btn:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 40px rgba(233, 69, 96, 0.6);
+            background: linear-gradient(135deg, #ff6b81, #e94560);
+            letter-spacing: 6px;
+        }
+
+        .kalam-back-btn .btn-sub {
+            display: block;
+            font-size: 0.75rem;
+            letter-spacing: 2px;
+            margin-top: 5px;
+            opacity: 0.8;
+            font-weight: normal;
+        }
+
+        footer {
+            background: #1a1a2e;
+            color: #888;
+            text-align: center;
+            padding: 25px;
+            font-size: 0.9rem;
+            margin-top: 40px;
+        }
+
+        footer span { color: #e94560; }
+
+        @media (max-width: 600px) {
+            header { flex-direction: column; gap: 10px; padding: 15px 20px; }
+            .article-container { padding: 0 15px; }
+            .article-header h1 { font-size: 1.5rem; }
+            .article-content { font-size: 0.95rem; }
+            .arabic-text { font-size: 1.4rem; line-height: 2.4; }
+            .article-nav { gap: 15px; }
+            .article-nav-btn { width: 55px; height: 55px; font-size: 1.4rem; }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <a href="index.html" class="logo-kalam" title="Kembali ke Beranda">
+            <span>K</span>ALAM
+        </a>
+        <nav>
+            <a href="https://masjidalikhlaskebagusan99-dotcom.github.io/Masjid-Al-Ikhlas/">Beranda</a>
+            <a href="https://masjidalikhlaskebagusan99-dotcom.github.io/Masjid-Al-Ikhlas/artikel.html">Artikel</a>
+        </nav>
+    </header>
+
+    <div class="breadcrumb">
+        <a href="https://masjidalikhlaskebagusan99-dotcom.github.io/Masjid-Al-Ikhlas/">Beranda</a> &raquo; <a href="https://masjidalikhlaskebagusan99-dotcom.github.io/Masjid-Al-Ikhlas/artikel.html">Artikel</a> &raquo; Doa Dikabulkan
+    </div>
+
+    <div class="article-container">
+
+        <div class="article-header">
+            <h1>Kapan dan Kepada Siapa Doa Dikabulkan? Ini Jawaban Syaikh Abdul Qadir Al-Jilani</h1>
+            <div class="article-meta">
+                <div class="author">
+                    <div class="author-avatar">MY</div>
+                    <div>
+                        <div class="author-name">DKM Masjid Jami' Al-Ikhlas Kebagusan</div>
+                        <div class="meta-date">Senin, 05 Oktober 2026, 19:45 WIB</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="article-image-wrapper">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Abdul_Qadir_Jilani.jpg/440px-Abdul_Qadir_Jilani.jpg"
+                 alt="Potret Syaikh Abdul Qadir Al-Jilani">
+            <div class="image-caption">Sumber: kalam.web.id — Potret Syaikh Abdul Qadir Al-Jilani</div>
+        </div>
+
+        <div class="share-bar">
+            <span>Bagikan:</span>
+            <a href="#" class="share-btn fb">f</a>
+            <a href="#" class="share-btn tw">𝕏</a>
+            <a href="#" class="share-btn wa">W</a>
+            <a href="#" class="share-btn tg">T</a>
+            <div class="font-size-controls">
+                <button class="font-btn" onclick="changeFontSize(-1)">A-</button>
+                <button class="font-btn" onclick="changeFontSize(1)">A+</button>
+            </div>
+        </div>
+
+        <div class="article-content" id="articleContent">
+
+            <p class="lead">
+                Syaikh Abdul Qadir Al-Jilani dalam kitabnya <em>"Al-Fath Ar-Rabbani"</em> menjelaskan tentang kapan dan kepada siapa doa dikabulkan. Beliau menjelaskan bahwa tidak semua doa langsung dikabulkan, dan ada beberapa kondisi serta kriteria tertentu agar doa seorang hamba dikabulkan oleh Allah SWT.
+            </p>
+
+            <h2>Pertanyaan Mendasar tentang Doa</h2>
+
+            <p>
+                Dalam sebuah majelis pengajiannya, Syaikh Abdul Qadir Al-Jilani pernah ditanya oleh salah seorang muridnya: "Wahai Syaikh, mengapa ada doa yang dikabulkan dengan cepat, ada yang ditunda, dan ada yang tidak dikabulkan sama sekali?" Pertanyaan ini sangat penting karena menyangkut hubungan seorang hamba dengan Tuhannya.
+            </p>
+
+            <p>
+                Syaikh Abdul Qadir Al-Jilani menjawab dengan bijaksana bahwa Allah SWT pasti mengabulkan doa hamba-Nya, namun dengan cara dan waktu yang berbeda-beda sesuai dengan hikmah dan kebijaksanaan-Nya.
+            </p>
+
+            <div class="arabic-box">
+                <div class="arabic-label">DALIL TENTANG DOA — QS. GHAFIR: 60</div>
+                <div class="arabic-text">
+                    وَقَالَ رَبُّكُمُ ادْعُونِي أَسْتَجِبْ لَكُمْ
+                </div>
+                <div class="arabic-translation">
+                    <strong>Artinya:</strong> "Dan Tuhanmu berfirman: 'Berdoalah kepada-Ku, niscaya akan Kuperkenankan bagimu.'"
+                    <br>— QS. Ghafir: 60
+                </div>
+            </div>
+
+            <h2>Kapan Doa Dikabulkan?</h2>
+
+            <p>
+                Syaikh Abdul Qadir Al-Jilani menjelaskan bahwa ada beberapa waktu dan kondisi di mana doa sangat mustajab (mudah dikabulkan):
+            </p>
+
+            <h3>1. Saat Sujud dalam Shalat</h3>
+
+            <p>
+                Waktu sujud adalah waktu yang paling dekat antara seorang hamba dengan Tuhannya. Rasulullah SAW bersabda bahwa doa pada saat sujud sangat mustajab.
+            </p>
+
+            <div class="arabic-box">
+                <div class="arabic-label">HADITS TENTANG DOA SAAT SUJUD</div>
+                <div class="arabic-text">
+                    أَقْرَبُ مَا يَكُونُ الْعَبْدُ مِنْ رَبِّهِ وَهُوَ سَاجِدٌ، فَأَكْثِرُوا الدُّعَاءَ
+                </div>
+                <div class="arabic-translation">
+                    <strong>Artinya:</strong> "Keadaan paling dekat seorang hamba dengan Tuhannya adalah ketika ia sedang sujud, maka perbanyaklah doa."
+                    <br>— HR. Muslim
+                </div>
+            </div>
+
+            <h3>2. Sepertiga Malam Terakhir</h3>
+
+            <p>
+                Sepertiga malam terakhir adalah waktu yang sangat istimewa. Allah SWT turun ke langit dunia pada waktu ini dan mengabulkan doa hamba-Nya yang berdoa.
+            </p>
+
+            <div class="arabic-box">
+                <div class="arabic-label">HADITS TENTANG SEPERSIGA MALAM TERAKHIR</div>
+                <div class="arabic-text">
+                    يَنْزِلُ رَبُّنَا تَبَارَكَ وَتَعَالَىٰ كُلَّ لَيْلَةٍ إِلَى السَّمَاءِ الدُّنْيَا حِينَ يَبْقَىٰ ثُلُثُ اللَّيْلِ الْآخِرُ، فَيَقُولُ: مَنْ يَدْعُونِي فَأَسْتَجِيبَ لَهُ، مَنْ يَسْأَلُنِي فَأُعْطِيَهُ، مَنْ يَسْتَغْفِرُنِي فَأَغْفِرَ لَهُ
+                </div>
+                <div class="arabic-translation">
+                    <strong>Artinya:</strong> "Rabb kita Tabaraka wa Ta'ala turun setiap malam ke langit dunia ketika tersisa sepertiga malam terakhir, lalu berfirman: 'Siapa yang berdoa kepada-Ku, maka akan Kukabulkan. Siapa yang meminta kepada-Ku, maka akan Kuberi. Siapa yang meminta ampun kepada-Ku, maka akan Kuampuni.'"
+                    <br>— HR. Bukhari & Muslim
+                </div>
+            </div>
+
+            <h3>3. Antara Adzan dan Iqamah</h3>
+
+            <p>
+                Waktu antara adzan dan iqamah adalah waktu yang mustajab untuk berdoa. Syaikh Abdul Qadir Al-Jilani menganjurkan agar para muridnya memperbanyak doa pada waktu ini.
+            </p>
+
+            <div class="arabic-box">
+                <div class="arabic-label">HADITS TENTANG DOA ANTARA ADZAN DAN IQAMAH</div>
+                <div class="arabic-text">
+                    الدُّعَاءُ لَا يُرَدُّ بَيْنَ الْأَذَانِ وَالْإِقَامَةِ
+                </div>
+                <div class="arabic-translation">
+                    <strong>Artinya:</strong> "Doa tidak akan ditolak antara adzan dan iqamah."
+                    <br>— HR. Abu Dawud & Tirmidzi
+                </div>
+            </div>
+
+            <h3>4. Saat Hujan Turun</h3>
+
+            <p>
+                Saat hujan turun adalah waktu yang mustajab untuk berdoa. Syaikh Abdul Qadir Al-Jilani menjelaskan bahwa hujan adalah rahmat Allah, dan doa pada saat hujan turun sangat diharapkan dikabulkan.
+            </p>
+
+            <div class="arabic-box">
+                <div class="arabic-label">HADITS TENTANG DOA SAAT HUJAN</div>
+                <div class="arabic-text">
+                    ثِنْتَانِ لَا تُرَدَّانِ: الدُّعَاءُ عِنْدَ النِّدَاءِ، وَتَحْتَ الْمَطَرِ
+                </div>
+                <div class="arabic-translation">
+                    <strong>Artinya:</strong> "Dua doa yang tidak akan ditolak: doa saat adzan dan doa saat hujan turun."
+                    <br>— HR. Abu Dawud
+                </div>
+            </div>
+
+            <h3>5. Pada Hari Jumat</h3>
+
+            <p>
+                Hari Jumat memiliki waktu istimewa di mana doa sangat mustajab. Para ulama berbeda pendapat tentang waktu pastinya, namun mayoritas berpendapat bahwa waktu tersebut adalah setelah shalat Ashar hingga menjelang Maghrib.
+            </p>
+
+            <div class="arabic-box">
+                <div class="arabic-label">HADITS TENTANG HARI JUMAT</div>
+                <div class="arabic-text">
+                    فِي الْجُمُعَةِ سَاعَةٌ لَا يُوَافِقُهَا عَبْدٌ مُسْلِمٌ وَهُوَ قَائِمٌ يُصَلِّي يَسْأَلُ اللَّهَ شَيْئًا إِلَّا أَعْطَاهُ إِيَّاهُ
+                </div>
+                <div class="arabic-translation">
+                    <strong>Artinya:</strong> "Pada hari Jumat terdapat suatu waktu yang tidaklah seorang hamba Muslim yang sedang berdiri shalat bertepatan dengan waktu tersebut lalu meminta sesuatu kepada Allah, melainkan Allah akan memberinya."
+                    <br>— HR. Bukhari & Muslim
+                </div>
+            </div>
+
+            <h2>Kepada Siapa Doa Dikabulkan?</h2>
+
+            <p>
+                Syaikh Abdul Qadir Al-Jilani juga menjelaskan tentang kriteria orang-orang yang doanya dikabulkan oleh Allah SWT. Tidak semua orang yang berdoa akan dikabulkan doanya, ada beberapa syarat dan kondisi yang harus dipenuhi.
+            </p>
+
+            <h3>1. Orang yang Beriman dan Bertakwa</h3>
+
+            <p>
+                Doa orang yang beriman dan bertakwa lebih cepat dikabulkan oleh Allah SWT. Mereka adalah orang-orang yang senantiasa menjalankan perintah Allah dan menjauhi larangan-Nya.
+            </p>
+
+            <div class="arabic-box">
+                <div class="arabic-label">DALIL ORANG BERIMAN — QS. AL-BAQARAH: 186</div>
+                <div class="arabic-text">
+                    وَإِذَا سَأَلَكَ عِبَادِي عَنِّي فَإِنِّي قَرِيبٌ ۖ أُجِيبُ دَعْوَةَ الدَّاعِ إِذَا دَعَانِ
+                </div>
+                <div class="arabic-translation">
+                    <strong>Artinya:</strong> "Dan apabila hamba-hamba-Ku bertanya kepadamu tentang Aku, maka (jawablah), bahwasanya Aku adalah dekat. Aku mengabulkan permohonan orang yang berdoa apabila ia memohon kepada-Ku."
+                    <br>— QS. Al-Baqarah: 186
+                </div>
+            </div>
+
+            <h3>2. Orang yang Makan dari Rezeki yang Halal</h3>
+
+            <p>
+                Syaikh Abdul Qadir Al-Jilani sangat menekankan pentingnya makan dari rezeki yang halal. Beliau menjelaskan bahwa doa orang yang makan dari rezeki haram sulit dikabulkan oleh Allah SWT.
+            </p>
+
+            <div class="arabic-box">
+                <div class="arabic-label">HADITS TENTANG REZEKI HALAL</div>
+                <div class="arabic-text">
+                    يَا سَعْدُ، أَطِبْ مَطْعَمَكَ تَكُنْ مُسْتَجَابَ الدَّعْوَةِ
+                </div>
+                <div class="arabic-translation">
+                    <strong>Artinya:</strong> "Wahai Sa'ad, perbaguslah makananmu (makan yang halal), niscaya engkau akan menjadi orang yang dikabulkan doanya."
+                    <br>— HR. Thabrani
+                </div>
+            </div>
+
+            <h3>3. Orang yang Berdoa dengan Penuh Keyakinan</h3>
+
+            <p>
+                Doa harus disertai dengan keyakinan penuh bahwa Allah SWT akan mengabulkannya. Syaikh Abdul Qadir Al-Jilani menjelaskan bahwa keraguan dalam berdoa dapat menjadi penghalang dikabulkannya doa.
+            </p>
+
+            <div class="arabic-box">
+                <div class="arabic-label">HADITS TENTANG KEYAKINAN DALAM BERDOA</div>
+                <div class="arabic-text">
+                    ادْعُوا اللَّهَ وَأَنْتُمْ مُوقِنُونَ بِالْإِجَابَةِ، وَاعْلَمُوا أَنَّ اللَّهَ لَا يَسْتَجِيبُ دُعَاءً مِنْ قَلْبٍ غَافِلٍ لَاهٍ
+                </div>
+                <div class="arabic-translation">
+                    <strong>Artinya:</strong> "Berdoalah kepada Allah dalam keadaan yakin akan dikabulkan, dan ketahuilah bahwa Allah tidak mengabulkan doa dari hati yang lalai dan bermain-main."
+                    <br>— HR. Tirmidzi
+                </div>
+            </div>
+
+            <h3>4. Orang yang Tidak Berdoa untuk Kejahatan</h3>
+
+            <p>
+                Doa yang berisi permintaan untuk berbuat jahat atau memutuskan silaturahmi tidak akan dikabulkan oleh Allah SWT. Syaikh Abdul Qadir Al-Jilani menjelaskan bahwa Allah SWT hanya mengabulkan doa yang baik dan bermanfaat.
+            </p>
+
+            <div class="arabic-box">
+                <div class="arabic-label">HADITS TENTANG DOA YANG DIKABULKAN</div>
+                <div class="arabic-text">
+                    يُسْتَجَابُ لِلْعَبْدِ مَا لَمْ يَدْعُ بِإِثْمٍ أَوْ قَطِيعَةِ رَحِمٍ، مَا لَمْ يَسْتَعْجِلْ
+                </div>
+                <div class="arabic-translation">
+                    <strong>Artinya:</strong> "Doa seorang hamba akan dikabulkan selama ia tidak berdoa untuk dosa atau memutuskan silaturahmi, dan selama ia tidak tergesa-gesa."
+                    <br>— HR. Muslim
+                </div>
+            </div>
+
+            <h3>5. Orang yang Bersabar dan Tidak Tergesa-gesa</h3>
+
+            <p>
+                Syaikh Abdul Qadir Al-Jilani menjelaskan bahwa kesabaran dalam menunggu dikabulkannya doa adalah salah satu kunci. Orang yang tergesa-gesa dan berkata "Aku telah berdoa namun tidak dikabulkan" maka doanya tidak akan dikabulkan.
+            </p>
+
+            <div class="arabic-box">
+                <div class="arabic-label">HADITS TENTANG JANGAN TERGESA-GESA</div>
+                <div class="arabic-text">
+                    يُسْتَجَابُ لِأَحَدِكُمْ مَا لَمْ يَعْجَلْ، يَقُولُ: دَعَوْتُ فَلَمْ يُسْتَجَبْ لِي
+                </div>
+                <div class="arabic-translation">
+                    <strong>Artinya:</strong> "Akan dikabulkan doa salah seorang dari kalian selama ia tidak tergesa-gesa, yaitu dengan berkata: 'Aku telah berdoa namun tidak dikabulkan.'"
+                    <br>— HR. Bukhari & Muslim
+                </div>
+            </div>
+
+            <h2>Tiga Bentuk Dikabulkannya Doa</h2>
+
+            <p>
+                Syaikh Abdul Qadir Al-Jilani menjelaskan bahwa ada tiga bentuk dikabulkannya doa oleh Allah SWT:
+            </p>
+
+            <p>
+                <strong>1. Dikabulkan segera di dunia.</strong> Allah SWT mengabulkan doa hamba-Nya dengan memberikan apa yang diminta langsung di dunia ini.
+            </p>
+
+            <p>
+                <strong>2. Disimpan untuk di akhirat.</strong> Allah SWT menyimpan pahala doa hamba-Nya untuk diberikan di akhirat kelak, yang pahalanya jauh lebih besar daripada apa yang diminta di dunia.
+            </p>
+
+            <p>
+                <strong>3. Ditolak dengan diberikan perlindungan dari musibah.</strong> Allah SWT menolak permintaan hamba-Nya karena permintaan tersebut tidak baik baginya, dan sebagai gantinya Allah melindungi hamba tersebut dari musibah yang lebih besar.
+            </p>
+
+            <div class="arabic-box">
+                <div class="arabic-label">HIKMAH DIKABULKANNYA DOA</div>
+                <div class="arabic-text">
+                    مَا مِنْ مُسْلِمٍ يَدْعُو اللَّهَ بِدَعْوَةٍ لَيْسَ فِيهَا إِثْمٌ وَلَا قَطِيعَةُ رَحِمٍ إِلَّا أَعْطَاهُ اللَّهُ بِهَا إِحْدَى ثَلَاثٍ: إِمَّا أَنْ يُعَجِّلَ لَهُ دَعْوَتَهُ، وَإِمَّا أَنْ يَدَّخِرَهَا لَهُ فِي الْآخِرَةِ، وَإِمَّا أَنْ يَصْرِفَ عَنْهُ مِنَ السُّوءِ مِثْلَهَا
+                </div>
+                <div class="arabic-translation">
+                    <strong>Artinya:</strong> "Tidaklah seorang Muslim berdoa kepada Allah dengan doa yang tidak mengandung dosa dan tidak memutuskan silaturahmi, melainkan Allah akan memberinya salah satu dari tiga hal:要么 Allah akan segera mengabulkan doanya, atau Allah akan menyimpannya untuknya di akhirat, atau Allah akan menolak keburukan yang semisal dengannya."
+                    <br>— HR. Ahmad
+                </div>
+            </div>
+
+            <h2>Nasihat Syaikh Abdul Qadir Al-Jilani tentang Doa</h2>
+
+            <p>
+                Syaikh Abdul Qadir Al-Jilani memberikan beberapa nasihat berharga tentang adab dan cara berdoa agar dikabulkan oleh Allah SWT:
+            </p>
+
+            <div class="arabic-box">
+                <div class="arabic-label">NASIHAT SYAIKH TENTANG DOA</div>
+                <div class="arabic-text">
+                    إِذَا دَعَوْتَ اللَّهَ فَادْعُ بِقَلْبٍ حَاضِرٍ، وَيَقِينٍ كَامِلٍ، وَثِقَةٍ بِإِجَابَةِ رَبِّكَ
+                </div>
+                <div class="arabic-translation">
+                    <strong>Artinya:</strong> "Apabila kamu berdoa kepada Allah, maka berdoalah dengan hati yang hadir, keyakinan yang sempurna, dan kepercayaan akan dikabulkannya oleh Tuhanmu."
+                    <br>— Syaikh Abdul Qadir Al-Jilani
+                </div>
+            </div>
+
+            <p>
+                Beliau juga menekankan pentingnya memulai doa dengan memuji Allah SWT, bershalawat kepada Nabi Muhammad SAW, dan diakhiri dengan hamdalah.
+            </p>
+
+            <div class="arabic-box">
+                <div class="arabic-label">ADAB BERDOA</div>
+                <div class="arabic-text">
+                    اِبْدَأْ بِحَمْدِ اللَّهِ وَالثَّنَاءِ عَلَيْهِ، ثُمَّ صَلِّ عَلَى النَّبِيِّ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ، ثُمَّ ادْعُ بِمَا شِئْتَ
+                </div>
+                <div class="arabic-translation">
+                    <strong>Artinya:</strong> "Mulailah dengan memuji Allah dan menyanjung-Nya, kemudian bershalawatlah kepada Nabi SAW, lalu berdoalah dengan apa yang kamu inginkan."
+                    <br>— Syaikh Abdul Qadir Al-Jilani
+                </div>
+            </div>
+
+            <h2>Doa-Doa Mustajab yang Diajarkan Syaikh Abdul Qadir Al-Jilani</h2>
+
+            <h3>1. Doa Memohon Dikabulkannya Doa</h3>
+
+            <div class="arabic-box">
+                <div class="arabic-label">DOA MOHON DIKABULKAN</div>
+                <div class="arabic-text">
+                    اللَّهُمَّ إِنِّي أَسْأَلُكَ بِأَنَّ لَكَ الْحَمْدَ، لَا إِلَٰهَ إِلَّا أَنْتَ، الْمَنَّانُ، بَدِيعُ السَّمَاوَاتِ وَالْأَرْضِ، يَا ذَا الْجَلَالِ وَالْإِكْرَامِ، يَا حَيُّ يَا قَيُّومُ، إِنِّي أَسْأَلُكَ
+                </div>
+                <div class="arabic-translation">
+                    <strong>Artinya:</strong> "Ya Allah, aku memohon kepada-Mu dengan memuji-Mu, tidak ada Tuhan selain Engkau, Yang Maha Pemberi nikmat, Pencipta langit dan bumi, Wahai Dzat yang memiliki keagungan dan kemuliaan, Wahai Yang Maha Hidup lagi Maha Berdiri Sendiri, sesungguhnya aku memohon kepada-Mu..."
+                    <br>— HR. Abu Dawud & Tirmidzi
+                </div>
+            </div>
+
+            <h3>2. Doa Memohon Kebaikan Dunia dan Akhirat</h3>
+
+            <div class="arabic-box">
+                <div class="arabic-label">DOA KEBAIKAN DUNIA AKHIRAT</div>
+                <div class="arabic-text">
+                    رَبَّنَا آتِنَا فِي الدُّنْيَا حَسَنَةً وَفِي الْآخِرَةِ حَسَنَةً وَقِنَا عَذَابَ النَّارِ
+                </div>
+                <div class="arabic-translation">
+                    <strong>Artinya:</strong> "Ya Tuhan kami, berilah kami kebaikan di dunia dan kebaikan di akhirat dan lindungilah kami dari azab neraka."
+                    <br>— QS. Al-Baqarah: 201
+                </div>
+            </div>
+
+            <h3>3. Doa Memohon Ampunan dan Rahmat</h3>
+
+            <div class="arabic-box">
+                <div class="arabic-label">DOA MOHON AMPUNAN</div>
+                <div class="arabic-text">
+                    اللَّهُمَّ اغْفِرْ لِي وَارْحَمْنِي وَاهْدِنِي وَارْزُقْنِي وَعَافِنِي
+                </div>
+                <div class="arabic-translation">
+                    <strong>Artinya:</strong> "Ya Allah, ampunilah aku, rahmatilah aku, berilah aku petunjuk, berilah aku rezeki, dan berilah aku kesehatan."
+                    <br>— HR. Muslim
+                </div>
+            </div>
+
+            <h2>Penutup</h2>
+
+            <p>
+                Dari penjelasan Syaikh Abdul Qadir Al-Jilani di atas, dapat disimpulkan bahwa doa pasti dikabulkan oleh Allah SWT, namun dengan cara dan waktu yang berbeda-beda sesuai dengan hikmah dan kebijaksanaan-Nya. Yang terpenting adalah kita senantiasa berdoa dengan penuh keyakinan, kesabaran, dan adab yang baik.
+            </p>
+
+            <p>
+                Semoga Allah SWT mengabulkan semua doa-doa kita, baik yang diminta segera di dunia maupun yang disimpan untuk di akhirat kelak. Aamiin ya Rabbal 'Alamiin.
+            </p>
+
+            <div class="arabic-box">
+                <div class="arabic-text">
+                    أَمَّنْ يُجِيبُ الْمُضْطَرَّ إِذَا دَعَاهُ وَيَكْشِفُ السُّوءَ
+                </div>
+                <div class="arabic-translation">
+                    <strong>Artinya:</strong> "Atau siapakah yang memperkenankan (doa) orang yang dalam kesulitan apabila ia berdoa kepada-Nya, dan yang menghilangkan kesusahan?"
+                    <br>— QS. An-Naml: 62
+                </div>
+            </div>
+
+            <p>
+                Wallahu a'lam bish-shawab. Dan segala puji bagi Allah, Tuhan semesta alam.
+            </p>
+
+        </div>
+
+        <!-- NAVIGASI 2 TOMBOL -->
+        <div class="article-nav">
+            <div class="nav-group">
+                <a href="artikel7.html" class="article-nav-btn active" title="Artikel Utama">1</a>
+                <div class="nav-btn-label">Artikel Utama</div>
+            </div>
+            <div class="nav-group">
+                <a href="artikel7-cabang.html" class="article-nav-btn" title="Artikel Cabang">2</a>
+                <div class="nav-btn-label">Artikel Cabang</div>
+            </div>
+        </div>
+
+        <a href="index.html" class="kalam-back-btn">
+            KALAM
+            <span class="btn-sub">← Kembali ke Beranda</span>
+        </a>
+
+    </div>
+
+    <footer>
+        <p>&copy; 2026 <span>KALAM</span>. Semua hak dilindungi.</p>
+    </footer>
+
+    <script>
+        let currentFontSize = 1.05;
+        function changeFontSize(delta) {
+            currentFontSize += delta * 0.1;
+            if (currentFontSize < 0.8) currentFontSize = 0.8;
+            if (currentFontSize > 1.5) currentFontSize = 1.5;
+            document.getElementById('articleContent').style.fontSize = currentFontSize + 'rem';
+        }
+    </script>
+
+</body>
+</html>
